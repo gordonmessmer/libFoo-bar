@@ -7,6 +7,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires: gcc
 BuildRequires: automake
+BuildRequires: libFoo
 
 %description
 A simple example spec file for Fedora.
