@@ -16,6 +16,7 @@ A simple example spec file for Fedora.
 
 %build
 autoreconf -fiv
+%configure
 %make_build
 
 %install
