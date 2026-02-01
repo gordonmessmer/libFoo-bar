@@ -14,7 +14,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: source-git build
-        uses: gordonmessmer/source-git-action@main
-        with:
-          mock-root: 'fedora-44-x86_64'
+        uses: gordonmessmer/rpm-build-assist-action@main
 
